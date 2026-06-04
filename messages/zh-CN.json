@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "Karmic Mirror",
+    "description": "不是发生在你身上的事。是你正在成为的人。"
+  },
+  "landing": {
+    "tagline": "\u201c不是发生在你身上的事。<br/><gold>是你正在成为的人。</gold>\u201d",
+    "step1": "看见你的基准命运——你此刻正走的路",
+    "step2": "每天做一个善意的练习——以古老智慧为指引",
+    "step3": "观察你的行为轨迹变化——当你改变，你的命运也改变",
+    "begin": "开始",
+    "freeNote": "免费。私密。无广告。",
+    "oneMoment": "稍等片刻",
+    "transitionText": "在心跳之间的空隙里，\n未来已经成形。",
+    "ready": "我准备好了"
+  },
+  "onboarding": {
+    "step1Hint": "首先，我们需要知道你从哪里开始",
+    "step1Title": "你出生在哪一年？",
+    "step2Hint": "月份塑造你的情感根基",
+    "step2Title": "哪个月份？",
+    "step3Hint": "日子承载着你生命的节奏",
+    "step3Title": "哪一天？",
+    "step4Hint": "时辰揭示你隐藏的天性",
+    "step4Title": "什么时辰？",
+    "dontKnow": "不知道？选中午就好。",
+    "months": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+    "midnight": "午夜 (00:00)",
+    "noon": "正午 (12:00)",
+    "next": "下一步",
+    "continue": "继续",
+    "reveal": "揭示我的基线",
+    "errors": {
+      "invalidYear": "请输入有效的出生年份 (1900-2026)",
+      "invalidMonth": "请输入有效的月份 (1-12)",
+      "invalidDay": "请输入有效的日期 (1-31)",
+      "invalidHour": "请选择有效的时辰"
+    }
+  },
+  "baseline": {
+    "calculating": "正在计算你的基线……",
+    "title": "你的基线命运",
+    "subtitle": "这就是你正在走的路",
+    "hint": "如果什么都没有改变，这就是你前进的方向",
+    "karmaIndex": "行为轨迹惯性指数",
+    "lifeHexagram": "你的本命卦",
+    "notFate": "这是你的基线。但这并非你的宿命。",
+    "beginPractice": "开始第 1 天练习",
+    "firstStep": "第一步是唯一重要的一步。",
+    "critical": "关键期",
+    "window": "可塑期"
+  },
+  "dashboard": {
+    "day": "第 {day} 天",
+    "yourJourney": "你的旅程",
+    "karmicInertia": "行为轨迹惯性",
+    "streak": "连续",
+    "days": "天",
+    "todaysPractice": "今日练习",
+    "todaysPracticeDesc": "一次善举，由古老智慧引导",
+    "karmaDrift": "行为轨迹偏移",
+    "karmaDriftDesc": "观察你的命运如何改变",
+    "share": "分享",
+    "shareDesc": "向世界展示你正在成为的人",
+    "community": "社区",
+    "ofPractitioners": "自我提升者",
+    "onThisPath": "同行者",
+    "yourLifeHexagram": "你的本命卦",
+    "communityDesc": "看看其他人在思考什么",
+    "viewAllRecords": "查看全部记录",
+    "zone1": {
+      "todayHexagram": "今日卦象",
+      "continuousPractice": "连续自我提升",
+      "totalPractice": "总练习次数",
+      "todayAssessment": "今日自评",
+      "weeklyTrend": "本周趋势",
+      "noData": "暂无数据",
+      "startPractice": "开始练习",
+      "up": "↑",
+      "down": "↓"
+    },
+    "zone2": {
+      "title": "六维品格雷达图",
+      "thisWeek": "本周",
+      "thisMonth": "本月",
+      "allTime": "全部",
+      "shortest": "最短",
+      "mostImproved": "进步最快",
+      "steady": "本周保持",
+      "avgScore": "平均 {score} 分",
+      "improved": "+{delta} 分",
+      "steadyAt": "稳定在 {score}+",
+      "noData": "暂无足够数据"
+    },
+    "zone3": {
+      "title": "行为 · 言语 · 心念趋势",
+      "body": "行为",
+      "speech": "言语",
+      "mind": "心念",
+      "days7": "7天",
+      "days30": "30天",
+      "days90": "90天",
+      "insightImbalance": "本周你的「{highest}」得分最高，但「{lowest}」持续低于平均值——有积极想法但没落地成行动。",
+      "insightBalanced": "本周三通道均衡，继续保持。",
+      "noData": "暂无趋势数据"
+    },
+    "zone4": {
+      "title": "因果对账",
+      "notEvaluated": "本月尚未评估 →",
+      "generosityWealth": "慷慨 / 财富反馈",
+      "disciplineSafety": "自律 / 平安反馈",
+      "patienceRelationships": "包容 / 关系反馈",
+      "diligenceAchievement": "精进 / 成就反馈",
+      "concentrationClarity": "专注 / 清明反馈",
+      "wisdomWisdom": "智慧 / 智慧反馈",
+      "monthlyFeedback": "月度收获反馈",
+      "wealth": "财富",
+      "safety": "平安",
+      "relationships": "关系",
+      "achievement": "成就",
+      "clarity": "清明",
+      "overall": "总体",
+      "submit": "提交",
+      "cancel": "取消",
+      "saved": "已保存"
+    },
+    "zone5": {
+      "title": "自我提升历",
+      "byTotal": "按总分",
+      "byGenerosity": "按慷慨",
+      "byDiscipline": "按自律",
+      "byPatience": "按包容",
+      "byDiligence": "按精进",
+      "byConcentration": "按专注",
+      "byWisdom": "按智慧",
+      "legendDeep": "深色 = 自我提升充分",
+      "legendLight": "浅色 = 有提升空间",
+      "legendGray": "灰色 = 未记录",
+      "noData": "暂无数据"
+    }
+  },
+  "practice": {
+    "loading": "正在加载你的练习……",
+    "day": "第 {day} 天",
+    "todaysWisdom": "今日智慧",
+    "yourPractice": "你的练习",
+    "whyThisMatters": "为何重要",
+    "reflection": "反思",
+    "reflectionPlaceholder": "尝试时发生了什么？感觉如何？",
+    "moodQuestion": "你今天感觉如何？",
+    "iDidIt": "我做到了",
+    "triedButFailed": "我尝试了但今天没做到",
+    "skipToday": "今天跳过",
+    "complete": "练习完成",
+    "thankYou": "谢谢",
+    "completeMessage": "你已经离开了惯性轨道一步。镜子已经偏移。",
+    "failedMessage": "诚实比成功更重要。你出现了——这已经足够了。",
+    "comeBackTomorrow": "明天再来。练习会在那里等你。",
+    "continue": "继续",
+    "backToDashboard": "返回仪表盘"
+  },
+  "drift": {
+    "calculating": "正在计算你的偏移……",
+    "noBaseline": "暂无基线数据。",
+    "setBaseline": "设定你的基线",
+    "title": "行为轨迹偏移",
+    "subtitle": "你的命运<br/>正在改变",
+    "practiceSummary": "{days} 天练习 · {drift}",
+    "karmicInertia": "行为轨迹惯性指数",
+    "before": "之前",
+    "now": "现在",
+    "lessPredictable": "↓ {points} 点 · 你变得不那么可预测了",
+    "patience": "改变需要时间。继续前进。",
+    "beginPractice": "开始你的练习以查看偏移。",
+    "significantShift": "显著变化——你在这个领域的练习见效了",
+    "subtleMovement": "细微移动——继续前进",
+    "needsAttention": "这个维度等待你的关注",
+    "rippleEffect": "涟漪效应",
+    "backToDashboard": "返回仪表盘"
+  },
+  "share": {
+    "title": "分享",
+    "subtitle": "向世界展示\n你正在成为的人",
+    "chooseCard": "选择一张卡片分享",
+    "cards": {
+      "drift": {
+        "title": "命运逃脱",
+        "desc": "展示你的基线偏移了多少"
+      },
+      "antiSelf": {
+        "title": "反我",
+        "desc": "那个本可能存在的你"
+      },
+      "ripple": {
+        "title": "涟漪地图",
+        "desc": "你在不知不觉中触及的生命"
+      },
+      "percentile": {
+        "title": "你的排名",
+        "desc": "你在自我提升者中的位置"
+      }
+    },
+    "selectCard": "在上方选择一张卡片预览和分享",
+    "shareButton": "分享这张卡片",
+    "shareHint": "你的卡片图片将被生成并分享",
+    "backToDashboard": "返回仪表盘",
+    "cardContent": {
+      "driftTitle": "命运逃脱",
+      "driftSubtitle": "我本会走向这里。我选择了另一条路。",
+      "inertia": "惯性",
+      "now": "现在",
+      "wasOnRails": "我曾被轨道束缚。如今我已自由。",
+      "smallChanges": "小变化。大转变。",
+      "antiSelfTitle": "我的反我",
+      "antiSelfSubtitle": "那个本可能存在的我",
+      "choseDifferently": "我看见这条路。我选择了不同。",
+      "rippleTitle": "涟漪地图",
+      "rippleSubtitle": "我的涟漪触及了大约 {count} 人",
+      "neverKnow": "有些人永远不会知道我的名字。这正是意义所在。",
+      "percentileTitle": "前 {pct}%",
+      "percentileSubtitle": "我是 {total} 位 Karmic Mirror 自我提升者中的前 {pct}%",
+      "percentileRank": "排名 #{rank} · 从零起步，不算太差。"
+    }
+  },
+  "components": {
+    "practiceCard": {
+      "todaysPractice": "今日练习",
+      "done": "已完成",
+      "skipped": "已跳过"
+    },
+    "karmaIndex": {
+      "label": "行为轨迹惯性"
+    }
+  },
+  "dimensions": {
+    "career": "事业轨迹",
+    "wealth": "财富流向",
+    "love": "人际关系",
+    "health": "生命力",
+    "mind": "心理力量"
+  },
+  "languageSwitcher": {
+    "switchTo": "EN",
+    "label": "切换语言"
+  },
+  "navigation": {
+    "back": "返回"
+  },
+  "dailyQuestion": {
+    "prompt": "今日反思之问",
+    "q1": "善念和善行，哪个更重要？",
+    "q2": "无人知晓的善行，还算善行吗？",
+    "q3": "出于责任的善，和出于爱的善，价值相等吗？",
+    "q4": "你可以对一个人感到愤怒，同时仍祝愿他好吗？",
+    "q5": "如果必须二选一——正确，还是善良——你选哪个？",
+    "q6": "你对陌生人的善意，应该多于对自己的善意吗？",
+    "q7": "原谅，是为了对方，还是为了自己？",
+    "q8": "当你帮助一个人时，你在改变他的命运，还是自己的？",
+    "q9": "不善良的真相，是否比善良的谎言更有爱？",
+    "q10": "如果每一个念头都会在世界留下痕迹，你的念头会不同吗？",
+    "q11": "人可能过于无私吗？",
+    "q12": "苦难让人更善良，还是更坚硬？",
+    "q13": "如果没有人看着，你会是谁？",
+    "q14": "你曾收过哪一个改变你的善意，而施予者从未知晓？",
+    "skip": "直接看结果",
+    "submit": "继续"
+  },
+  "assessment": {
+    "title": "今日自我提升自评",
+    "subtitle": "行为 · 言语 · 心念三业，每日如实照见",
+    "dimensions": {
+      "generosity": "慷慨",
+      "discipline": "自律",
+      "patience": "包容",
+      "diligence": "精进",
+      "concentration": "专注",
+      "wisdom": "智慧"
+    },
+    "channels": {
+      "body": "身",
+      "speech": "口",
+      "mind": "意"
+    },
+    "scoreHint": "1-5 分：1 需改进 · 3 中等 · 5 优秀",
+    "submit": "提交自评",
+    "skip": "跳过自评",
+    "totalScore": "总分",
+    "outOf": "/ 90",
+    "toast": {
+      "saved": "自评已保存",
+      "skipped": "已跳过自评"
+    }
+  },
+  "dashboard_assessment": {
+    "latestAssessment": "最近评估",
+    "noAssessment": "暂无评估数据",
+    "dimensionSummary": "六维品格概览",
+    "channelBreakdown": "行为 · 言语 · 心念分布"
+  },
+  "interpretation": {
+    "title": "AI 解卦",
+    "loading": "AI 正在结合卦象与你的问题解读……",
+    "fallback": "AI 解读功能暂未配置",
+    "error": "AI 解读暂时不可用，请稍后重试",
+    "aiLabel": "AI 解读",
+    "disclaimer": "此解读由 AI 生成，仅供参考"
+  },
+  "community": {
+    "title": "同行者",
+    "subtitle": "来自其他自我提升者的反思",
+    "like": "点赞",
+    "liked": "已点赞",
+    "likeError": "点赞失败，请重试"
+  },
+  "reminder": {
+    "title": "每日提醒",
+    "description": "每天定时提醒你做自我提升练习",
+    "enable": "开启提醒",
+    "disable": "关闭提醒",
+    "time": "提醒时间",
+    "permissionDenied": "通知权限被拒绝，请在浏览器设置中允许通知",
+    "testNotification": "测试提醒",
+    "saved": "设置已保存"
+  }
+}

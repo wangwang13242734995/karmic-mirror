@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "Karmic Mirror",
+    "description": "Not what will happen to you. What you are becoming."
+  },
+  "landing": {
+    "tagline": "\u201cNot what will happen to you.<br/><gold>What you are becoming.</gold>\u201d",
+    "step1": "See your baseline destiny — the path you're on now",
+    "step2": "Practice one act of kindness each day — guided by ancient wisdom",
+    "step3": "Watch your karma shift — as you change, your destiny changes",
+    "begin": "Begin",
+    "freeNote": "Free. Private. No ads.",
+    "oneMoment": "One moment",
+    "transitionText": "In the space between heartbeats,\na future is already forming.",
+    "ready": "I am ready"
+  },
+  "onboarding": {
+    "step1Hint": "First, we need to know where you started",
+    "step1Title": "What year were you born?",
+    "step2Hint": "The month shapes your emotional foundation",
+    "step2Title": "Which month?",
+    "step3Hint": "The day carries the rhythm of your life",
+    "step3Title": "What day?",
+    "step4Hint": "The hour reveals your hidden nature",
+    "step4Title": "What hour?",
+    "dontKnow": "Don't know? Noon is fine.",
+    "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "midnight": "Midnight (00:00)",
+    "noon": "Noon (12:00)",
+    "next": "Next",
+    "continue": "Continue",
+    "reveal": "Reveal My Baseline",
+    "errors": {
+      "invalidYear": "Please enter a valid birth year (1900-2026)",
+      "invalidMonth": "Please enter a valid month (1-12)",
+      "invalidDay": "Please enter a valid day (1-31)",
+      "invalidHour": "Please select a valid hour"
+    }
+  },
+  "baseline": {
+    "calculating": "Calculating your baseline...",
+    "title": "Your Baseline Destiny",
+    "subtitle": "This is the path you are on",
+    "hint": "If nothing changes, this is where you are headed",
+    "karmaIndex": "Karmic Inertia Index",
+    "lifeHexagram": "Your Life Hexagram",
+    "notFate": "This is your baseline. But it is not your fate.",
+    "beginPractice": "Begin Day 1 Practice",
+    "firstStep": "The first step is the only one that matters.",
+    "critical": "Critical",
+    "window": "Window"
+  },
+  "dashboard": {
+    "day": "Day {day}",
+    "yourJourney": "Your Journey",
+    "karmicInertia": "Karmic Inertia",
+    "streak": "Streak",
+    "days": "days",
+    "todaysPractice": "Today's Practice",
+    "todaysPracticeDesc": "One act of kindness, guided by ancient wisdom",
+    "karmaDrift": "Karma Drift",
+    "karmaDriftDesc": "See how your destiny is shifting",
+    "share": "Share",
+    "shareDesc": "Show the world what you are becoming",
+    "community": "Community",
+    "ofPractitioners": "of practitioners",
+    "onThisPath": "on this path",
+    "yourLifeHexagram": "Your Life Hexagram",
+    "communityDesc": "See what others are reflecting on",
+    "viewAllRecords": "View All Records",
+    "zone1": {
+      "todayHexagram": "Today's Hexagram",
+      "continuousPractice": "Practice Streak",
+      "totalPractice": "Total Sessions",
+      "todayAssessment": "Today's Score",
+      "weeklyTrend": "Weekly Trend",
+      "noData": "No data yet",
+      "startPractice": "Start Practice",
+      "up": "↑",
+      "down": "↓"
+    },
+    "zone2": {
+      "title": "Six Paramitas Radar",
+      "thisWeek": "This Week",
+      "thisMonth": "This Month",
+      "allTime": "All Time",
+      "shortest": "Weakest",
+      "mostImproved": "Most Improved",
+      "steady": "Steady",
+      "avgScore": "avg {score}",
+      "improved": "+{delta}",
+      "steadyAt": "steady at {score}+",
+      "noData": "Not enough data"
+    },
+    "zone3": {
+      "title": "Body · Speech · Mind",
+      "body": "Body",
+      "speech": "Speech",
+      "mind": "Mind",
+      "days7": "7D",
+      "days30": "30D",
+      "days90": "90D",
+      "insightImbalance": "This week your '{highest}' scores highest, but '{lowest}' stays below average — good intentions that haven't yet become action.",
+      "insightBalanced": "All three channels are well-balanced this week. Keep it up.",
+      "noData": "No trend data yet"
+    },
+    "zone4": {
+      "title": "Cause & Effect Ledger",
+      "notEvaluated": "Not evaluated this month →",
+      "generosityWealth": "Generosity / Wealth",
+      "disciplineSafety": "Discipline / Safety",
+      "patienceRelationships": "Patience / Relationships",
+      "diligenceAchievement": "Diligence / Achievement",
+      "concentrationClarity": "Concentration / Clarity",
+      "wisdomWisdom": "Wisdom / Wisdom",
+      "monthlyFeedback": "Monthly Feedback",
+      "wealth": "Wealth",
+      "safety": "Safety",
+      "relationships": "Relationships",
+      "achievement": "Achievement",
+      "clarity": "Clarity",
+      "overall": "Overall",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "saved": "Saved"
+    },
+    "zone5": {
+      "title": "Practice Calendar",
+      "byTotal": "By Total",
+      "byGenerosity": "By Generosity",
+      "byDiscipline": "By Discipline",
+      "byPatience": "By Patience",
+      "byDiligence": "By Diligence",
+      "byConcentration": "By Concentration",
+      "byWisdom": "By Wisdom",
+      "legendDeep": "Deep = full practice",
+      "legendLight": "Light = room to grow",
+      "legendGray": "Gray = not recorded",
+      "noData": "No data"
+    }
+  },
+  "practice": {
+    "loading": "Loading your practice...",
+    "day": "Day {day}",
+    "todaysWisdom": "Today's Wisdom",
+    "yourPractice": "Your Practice",
+    "whyThisMatters": "Why This Matters",
+    "reflection": "Reflection",
+    "reflectionPlaceholder": "What happened when you tried this? How did it feel?",
+    "moodQuestion": "How do you feel today?",
+    "iDidIt": "I did it",
+    "triedButFailed": "I tried but couldn't do it today",
+    "skipToday": "Skip today",
+    "complete": "Practice Complete",
+    "thankYou": "Thank You",
+    "completeMessage": "You have taken one step off the path of inertia. The mirror has shifted.",
+    "failedMessage": "Honesty matters more than success. You showed up — that already counts.",
+    "comeBackTomorrow": "Come back tomorrow. The practice will be waiting.",
+    "continue": "Continue",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "drift": {
+    "calculating": "Calculating your drift...",
+    "noBaseline": "No baseline data yet.",
+    "setBaseline": "Set Your Baseline",
+    "title": "Karma Drift",
+    "subtitle": "Your Destiny<br/>Is Shifting",
+    "practiceSummary": "{days} days of practice · {drift}",
+    "karmicInertia": "Karmic Inertia Index",
+    "before": "Before",
+    "now": "Now",
+    "lessPredictable": "↓ {points} points · You are becoming less predictable",
+    "patience": "Change takes time. Keep going.",
+    "beginPractice": "Begin your practice to see your drift.",
+    "significantShift": "Significant shift — your practice in this area is working",
+    "subtleMovement": "Subtle movement — keep going",
+    "needsAttention": "This dimension awaits your attention",
+    "rippleEffect": "Ripple Effect",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "share": {
+    "title": "Share",
+    "subtitle": "Show the World\nWhat You Are Becoming",
+    "chooseCard": "Choose a card to share",
+    "cards": {
+      "drift": {
+        "title": "Destiny Escape",
+        "desc": "Show how much you've shifted your baseline"
+      },
+      "antiSelf": {
+        "title": "Anti-Self",
+        "desc": "The version of you that would have been"
+      },
+      "ripple": {
+        "title": "Ripple Map",
+        "desc": "The lives you've touched without knowing"
+      },
+      "percentile": {
+        "title": "Your Rank",
+        "desc": "Where you stand among practitioners"
+      }
+    },
+    "selectCard": "Select a card above to preview and share",
+    "shareButton": "Share This Card",
+    "shareHint": "Your card image will be generated and shared",
+    "backToDashboard": "Back to Dashboard",
+    "cardContent": {
+      "driftTitle": "Destiny Escape",
+      "driftSubtitle": "I was headed here. I chose another path.",
+      "inertia": "Inertia",
+      "now": "Now",
+      "wasOnRails": "I was on rails. Now I am free.",
+      "smallChanges": "Small changes. Big shift.",
+      "antiSelfTitle": "My Anti-Self",
+      "antiSelfSubtitle": "The version of me that could have been",
+      "choseDifferently": "I saw this path. I chose differently.",
+      "rippleTitle": "Ripple Map",
+      "rippleSubtitle": "My ripples have touched approximately {count} people",
+      "neverKnow": "Some will never know my name. That is the point.",
+      "percentileTitle": "Top {pct}%",
+      "percentileSubtitle": "I am in the top {pct}% of {total} Karmic Mirror practitioners",
+      "percentileRank": "Rank #{rank} · Not bad for someone who started from zero."
+    }
+  },
+  "components": {
+    "practiceCard": {
+      "todaysPractice": "Today's Practice",
+      "done": "Done",
+      "skipped": "Skipped"
+    },
+    "karmaIndex": {
+      "label": "Karmic Inertia"
+    }
+  },
+  "dimensions": {
+    "career": "Career Path",
+    "wealth": "Wealth Flow",
+    "love": "Relationships",
+    "health": "Vitality",
+    "mind": "Mind Strength"
+  },
+  "languageSwitcher": {
+    "switchTo": "中文",
+    "label": "Switch Language"
+  },
+  "navigation": {
+    "back": "Back"
+  },
+  "dailyQuestion": {
+    "prompt": "Today's question for reflection",
+    "q1": "Which matters more — having good intentions, or performing good deeds?",
+    "q2": "If a kindness goes entirely unnoticed, does it still count?",
+    "q3": "Is a good act done out of duty as valuable as one done out of love?",
+    "q4": "Can you be angry at someone and still wish them well?",
+    "q5": "If you had to choose — be right, or be kind — which would you pick?",
+    "q6": "Do you owe more kindness to strangers or to yourself?",
+    "q7": "Is forgiveness for the other person, or for you?",
+    "q8": "When you help someone, are you changing their destiny — or yours?",
+    "q9": "Can an unkind truth be more loving than a kind lie?",
+    "q10": "If every thought left a trace in the world, would you think differently?",
+    "q11": "Is it possible to be too selfless?",
+    "q12": "Does suffering make a person kinder, or harder?",
+    "q13": "If no one were watching, who would you be?",
+    "q14": "What is one kindness you received that changed you — but the giver never knew?",
+    "skip": "Just show me the result",
+    "submit": "Continue"
+  },
+  "assessment": {
+    "title": "Daily Practice Self-Assessment",
+    "subtitle": "Body · Speech · Mind — honestly reflect on your day",
+    "dimensions": {
+      "generosity": "Generosity",
+      "discipline": "Discipline",
+      "patience": "Patience",
+      "diligence": "Diligence",
+      "concentration": "Concentration",
+      "wisdom": "Wisdom"
+    },
+    "channels": {
+      "body": "Body",
+      "speech": "Speech",
+      "mind": "Mind"
+    },
+    "scoreHint": "1-5 scale: 1 Poor · 3 Neutral · 5 Excellent",
+    "submit": "Submit Assessment",
+    "skip": "Skip Assessment",
+    "totalScore": "Total",
+    "outOf": "/ 90",
+    "toast": {
+      "saved": "Assessment saved",
+      "skipped": "Assessment skipped"
+    }
+  },
+  "dashboard_assessment": {
+    "latestAssessment": "Latest Assessment",
+    "noAssessment": "No assessment data yet",
+    "dimensionSummary": "Six Perfections Overview",
+    "channelBreakdown": "Body · Speech · Mind"
+  },
+  "interpretation": {
+    "title": "AI Interpretation",
+    "loading": "AI is reading your hexagram and question...",
+    "fallback": "AI interpretation is not configured",
+    "error": "AI interpretation is unavailable, please try again later",
+    "aiLabel": "AI Interpretation",
+    "disclaimer": "This interpretation is AI-generated, for reference only"
+  },
+  "community": {
+    "title": "Community",
+    "subtitle": "Reflections from fellow practitioners",
+    "like": "Like",
+    "liked": "Liked",
+    "likeError": "Like failed, please retry"
+  },
+  "reminder": {
+    "title": "Daily Reminder",
+    "description": "Get reminded daily to complete your practice",
+    "enable": "Enable Reminder",
+    "disable": "Disable Reminder",
+    "time": "Reminder Time",
+    "permissionDenied": "Notification permission denied. Please allow notifications in browser settings",
+    "testNotification": "Test Notification",
+    "saved": "Settings saved"
+  }
+}
