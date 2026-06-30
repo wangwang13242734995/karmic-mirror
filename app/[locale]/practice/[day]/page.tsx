@@ -7,12 +7,6 @@ import { getTodayPractice, type PracticeSession, type DailyAssessment, type Asse
 import { getLocalizedHexagram } from '@/lib/iching'
 import AssessmentTable from '@/components/AssessmentTable'
 
-export function generateStaticParams() {
-  const locales = ['en', 'zh', 'zh-CN']
-  const days = Array.from({ length: 64 }, (_, i) => String(i + 1))
-  return locales.flatMap(locale => days.map(day => ({ locale, day })))
-}
-
 const TOTAL_QUESTIONS = 14
 
 function pickDailyQuestion(dayNumber: number): number {
