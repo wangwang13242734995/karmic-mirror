@@ -6,6 +6,10 @@ import { getTodayPractice, type PracticeSession, type DailyAssessment, type Asse
 import { getLocalized } from '@/lib/iching'
 import AssessmentTable from '@/components/AssessmentTable'
 
+export function generateStaticParams() {
+  return Array.from({ length: 64 }, (_, i) => ({ day: String(i + 1) }))
+}
+
 export default function PracticePage() {
   const params = useParams()
   const router = useRouter()
