@@ -1,10 +1,14 @@
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import NavigationBar from '@/components/NavigationBar'
 
 const locales = ['en', 'zh', 'zh-CN']
+
+export function generateStaticParams() {
+  return locales.map(locale => ({ locale }))
+}
 
 export default async function LocaleLayout({
   children,
@@ -17,6 +21,7 @@ export default async function LocaleLayout({
 
   if (!locales.includes(locale)) notFound()
 
+  setRequestLocale(locale)
   const messages = await getMessages()
 
   return (
